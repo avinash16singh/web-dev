@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Course Details</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            caption-side: top;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border: 1px solid #ccc;
+        }
+        th {
+            background-color: lightgreen;
+            text-align: center;
+        }
+        td.center {
+            text-align: center;
+        }
+        .student-info {
+            vertical-align: middle;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    
+    <tr>
+        <th rowspan="2">Student Info</th>
+        <th rowspan="2">Courses</th>
+        <th colspan="2">Course Details</th>
+        <th rowspan="2">Total Credits</th>
+        <th rowspan="2">Course Title</th>
+    </tr>
+    <tr>
+        <th>Course Code</th>
+        <th>Instructor</th>
+    </tr>
+    <!-- First student -->
+    <tr>
+        <td class="student-info" rowspan="9">Abhishek<br>Computer Science</td>
+        <td class="center">101</td>
+        <td>CS101</td>
+        <td>Bhavna Sharma</td>
+        <td rowspan="9" class="center">15</td>
+        <td>Introduction to computer science</td>
+    </tr>
+    <tr>
+        <td class="center">101</td>
+        <td>Lab CS101L</td>
+        <td>Simranpreet Kaur</td>
+        <td>Intro Lab</td>
+    </tr>
+    <tr>
+        <td class="center">101</td>
+        <td>CS102</td>
+        <td>Neha</td>
+        <td>Programming Basics</td>
+    </tr>
+    <tr>
+        <td class="center">202</td>
+        <td rowspan="3">MA202</td>
+        <td>Bhavna Sharma</td>
+        <td>Math for Computer Science</td>
+    </tr>
+    <tr>
+        <td class="center">202</td>
+       
+        <td>Simranpreet Kaur</td>
+        <td>Math Lab</td>
+    </tr>
+    <tr>
+        <td class="center">202</td>
+       
+        <td>Neha</td>
+        <td>Discrete Mathematics</td>
+    </tr>
+    <tr>
+        <td class="center" rowspan="3">305</td>
+        <td rowspan="3">ECE401</td>
+        <td>Bhavna Sharma</td>
+        <td>Digital Electronics</td>
+    </tr>
+    <tr>
+            
+        <td>Simranpreet Kaur</td>
+        <td>Digital Lab</td>
+    </tr>
+    <tr>
+                       <td class="center">Neha</td>
+        <td>Microprocessors</td>
+    </tr>
+</table>
+
+<table  >
+    <tr>
+        <th rowspan="2">Student Info</th>
+        <th rowspan="2">Courses</th>
+        <th colspan="2">Course Details</th>
+        <th rowspan="2">Total Credits</th>
+        <th rowspan="2">Course Title</th>
+    </tr>
+    <tr>
+        <th>Course Code</th>
+        <th>Instructor</th>
+    </tr>
+    <!-- Second student -->
+    <tr>
+        <td class="student-info" rowspan="7">Riya<br>Computer Science</td>
+        <td class="center">101</td>
+        <td>CS101</td>
+        <td>Pawan Kumar</td>
+        <td rowspan="7" class="center">15</td>
+        <td>Introduction to computer science</td>
+    </tr>
+    <tr>
+        <td class="center">101</td>
+        <td>Lab CS101L</td>
+        <td>Shreya Kalta</td>
+        <td>Intro Lab</td>
+    </tr>
+    <tr>
+        <td class="center">101</td>
+        <td>CS102</td>
+        <td>Nitin Dubey</td>
+        <td>Programming Basics</td>
+    </tr>
+    <tr>
+        <td class="center" rowspan="">202</td>
+        <td rowspan="3">MA202</td>
+        <td>Akshat Sharma</td>
+        <td>Math for Computer Science</td>
+    </tr>
+    <tr>
+        <td class="center">       
+        <td>Aanand Sharma</td>
+        <td>Math Lab</td>
+    </tr>
+    <tr>
+        <td class="center">       
+        <td>Ronit Kumar</td>
+        <td>Discrete Mathematics</td>
+    </tr>
+</table>
+
+</body>
+</html>
